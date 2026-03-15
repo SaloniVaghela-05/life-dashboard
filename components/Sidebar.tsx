@@ -15,6 +15,7 @@ const navItems = [
   { href: '/dashboard/journal',       label: 'Journal',       emoji: '📖' },
   { href: '/dashboard/subscriptions', label: 'Subscriptions', emoji: '💳' },
   { href: '/dashboard/insights',      label: 'Insights',      emoji: '✨' },
+  { href: '/dashboard/about',         label: 'About',         emoji: '👋' },
 ]
 
 export default function Sidebar() {

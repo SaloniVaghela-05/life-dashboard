@@ -108,9 +108,7 @@ export default function LoginPage() {
           </div>
 
           <div>
-            <p className="text-xs font-semibold tracking-widest uppercase mb-4" style={{ color: 'rgba(255,230,180,0.80)' }}>
-              your personal sanctuary
-            </p>
+
             <h1
               className="text-4xl font-normal text-white leading-snug mb-5"
               style={{ fontFamily: 'var(--font-display)', textShadow: '0 2px 20px rgba(80,20,0,0.30)' }}
@@ -153,7 +151,7 @@ export default function LoginPage() {
               Welcome back
             </h2>
             <p className="text-sm mt-1.5" style={{ color: 'var(--text-muted)' }}>
-              Sign in to your calm space
+              Sign in to your account
             </p>
           </div>
 
@@ -188,7 +186,7 @@ export default function LoginPage() {
           <p className="text-center text-sm" style={{ color: 'var(--text-muted)' }}>
             New here?{' '}
             <Link href="/auth/signup" className="font-semibold hover:underline" style={{ color: 'var(--accent)' }}>
-              Create your sanctuary
+              Create a new Account
             </Link>
           </p>
           <p className="mt-10 text-center text-xs italic" style={{ color: 'var(--text-muted)', fontFamily: 'var(--font-display)' }}>
