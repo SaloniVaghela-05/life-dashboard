@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌿 Life Dashboard
 
-## Getting Started
+Life Dashboard is a personal productivity web application that helps users organize their daily life in one simple and intuitive workspace.  
+It combines task management, habit tracking, and financial monitoring into a single dashboard to improve focus, consistency, and productivity.
 
-First, run the development server:
+## 🚀 Live Demo
+https://life-dashboard-delta-olive.vercel.app/
 
-```bash
+## ✨ Features
+
+- ✅ Task Management – Add, update, and track daily tasks  
+- 🔁 Habit Tracking – Build and maintain positive routines  
+- 💰 Finance Tracking – Monitor income and expenses  
+- 📊 Centralized Dashboard – View all important information in one place  
+- 🎯 Minimal and User-Friendly Interface  
+
+## 🧠 Purpose
+
+The goal of this project is to simplify personal productivity by reducing the need for multiple apps.  
+Life Dashboard helps users stay organized, manage time effectively, and make consistent progress towards their goals.
+
+## 🛠️ Tech Stack
+
+- Frontend: React / Next.js  
+- Styling: CSS / Tailwind (update if different)  
+- Deployment: Vercel  
+
+## 📦 Installation
+
+1. Clone the repository  
+
+git clone https://github.com/your-username/life-dashboard.git
+
+
+2. Navigate to project folder  
+
+cd life-dashboard
+
+
+3. Install dependencies  
+
+npm install
+
+
+4. Run the development server  
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📌 Future Improvements
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- User authentication  
+- Data visualization charts  
+- Notifications & reminders  
+- Mobile responsiveness improvements  
+- Cloud data storage  
 
-## Learn More
+## 🤝 Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Contributions, issues, and feature requests are welcome.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📄 License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open source and available under the MIT License.
