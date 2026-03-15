@@ -1,0 +1,256 @@
+﻿
+> life-dashboard@0.1.0 build
+> next build
+
+   Γû▓ Next.js 15.1.0
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+node.exe : 
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+    + CategoryInfo          
+    : NotSpecified: (:Stri  
+  ng) [], RemoteException
+    + FullyQualifiedErrorId 
+    : NativeCommandError
+ 
+Failed to compile.
+
+./app/auth/login/page.tsx
+27:21  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+
+./app/auth/signup/page.tsx
+29:21  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+150:11  Error: `"` can be 
+escaped with `&quot;`, 
+`&ldquo;`, `&#34;`, 
+`&rdquo;`.  
+react/no-unescaped-entities
+150:93  Error: `"` can be 
+escaped with `&quot;`, 
+`&ldquo;`, `&#34;`, 
+`&rdquo;`.  
+react/no-unescaped-entities
+
+./app/dashboard/finance/page
+.tsx
+5:10  Error: 'Plus' is 
+defined but never used.  @ty
+pescript-eslint/no-unused-va
+rs
+5:54  Error: 'Trash2' is 
+defined but never used.  @ty
+pescript-eslint/no-unused-va
+rs
+14:44  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+15:40  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+64:27  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+74:94  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+177:41  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+194:39  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+
+./app/dashboard/goals/page.t
+sx
+5:16  Error: 'Target' is 
+defined but never used.  @ty
+pescript-eslint/no-unused-va
+rs
+11:38  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+77:38  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+132:61  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+211:44  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+
+./app/dashboard/habits/page.
+tsx
+36:55  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+37:42  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+
+./app/dashboard/insights/pag
+e.tsx
+8:32  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+25:44  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+68:24  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+100:52  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+102:31  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+102:39  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+103:22  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+103:34  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+
+./app/dashboard/journal/page
+.tsx
+5:24  Error: 'Calendar' is 
+defined but never used.  @ty
+pescript-eslint/no-unused-va
+rs
+17:42  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+19:54  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+
+./app/dashboard/page.tsx
+9:36  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+41:48  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+42:64  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+49:43  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+50:45  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+54:54  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+55:58  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+58:42  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+59:45  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+
+./app/dashboard/subscription
+s/page.tsx
+11:36  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+
+./app/dashboard/tasks/page.t
+sx
+3:44  Error: 'useRef' is 
+defined but never used.  @ty
+pescript-eslint/no-unused-va
+rs
+89:9  Error: 'filtered' is 
+assigned a value but never 
+used.  @typescript-eslint/no
+-unused-vars
+150:125  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+
+./components/Sidebar.tsx
+121:11  Error: `"` can be 
+escaped with `&quot;`, 
+`&ldquo;`, `&#34;`, 
+`&rdquo;`.  
+react/no-unescaped-entities
+121:41  Error: `"` can be 
+escaped with `&quot;`, 
+`&ldquo;`, `&#34;`, 
+`&rdquo;`.  
+react/no-unescaped-entities
+
+./lib/monitoring.ts
+2:50  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/no
+-explicit-any
+
+./lib/reports/weekly.ts
+12:6  Error: Parsing error: 
+Declaration or statement 
+expected.
+
+info  - Need to disable 
+some ESLint rules? Learn 
+more here: https://nextjs.or
+g/docs/app/api-reference/con
+fig/eslint#disabling-rules

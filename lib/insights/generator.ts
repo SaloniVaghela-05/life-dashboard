@@ -1,7 +1,7 @@
 import { createClient } from '@/lib/supabase/server'
 
 export async function generateInsights(userId: string) {
-  const supabase = createClient()
+  const supabase = await createClient()
   const insights = []
 
   // Analyze spending patterns
@@ -19,7 +19,7 @@ export async function generateInsights(userId: string) {
     }, {} as Record<string, number>)
 
     const topCategory = Object.entries(categoryTotals)
-      .sort(([, a], [, b]) => b - a)[0]
+      .sort(([, a], [, b]) => (b as number) - (a as number))[0] as [string, number]
 
     insights.push({
       type: 'spending',

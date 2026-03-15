@@ -1,10 +1,31 @@
 import { createClient } from '@/lib/supabase/server'
 
 export async function generateWeeklyReport(userId: string) {
-  const supabase = createClient()
+  const supabase = await createClient()
   const weekAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000)
 
-  //.select('*')
+  const [tasks, habits, expenses, income, goals] = await Promise.all([
+    supabase
+      .from('tasks')
+      .select('*')
+      .eq('user_id', userId)
+      .gte('created_at', weekAgo.toISOString()),
+    
+    supabase
+      .from('habit_logs')
+      .select('*, habits(*)')
+      .eq('user_id', userId)
+      .gte('completed_date', weekAgo.toISOString()),
+    
+    supabase
+      .from('expenses')
+      .select('*')
+      .eq('user_id', userId)
+      .gte('expense_date', weekAgo.toISOString()),
+    
+    supabase
+      .from('income')
+      .select('*')
       .eq('user_id', userId)
       .gte('income_date', weekAgo.toISOString()),
     

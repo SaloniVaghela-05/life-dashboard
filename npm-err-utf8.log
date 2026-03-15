@@ -1,0 +1,92 @@
+﻿node.exe : npm error code 
+ERESOLVE
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (npm err  
+  or code ERESOLVE:String)   
+  [], RemoteException
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+npm error ERESOLVE could not 
+resolve
+npm error
+npm error While resolving: 
+next@15.0.3
+npm error Found: react@19.2.3
+npm error node_modules/react
+npm error   react@"^19.0.0" 
+from the root project
+npm error   peer 
+react@">=16.8.0" from 
+@floating-ui/react-dom@2.1.8
+npm error   node_modules/@flo
+ating-ui/react-dom
+npm error     @floating-ui/re
+act-dom@"^2.0.0" from 
+@radix-ui/react-popper@1.2.8
+npm error     node_modules/@r
+adix-ui/react-popper
+npm error       @radix-ui/rea
+ct-popper@"1.2.8" from 
+@radix-ui/react-select@2.2.6
+npm error       node_modules/
+@radix-ui/react-select
+npm error         @radix-ui/r
+eact-select@"^2.1.2" from 
+the root project
+npm error   39 more 
+(@radix-ui/react-arrow, 
+@radix-ui/react-collection, 
+...)
+npm error
+npm error Could not resolve 
+dependency:
+npm error peer 
+react@"^18.2.0 || 
+19.0.0-rc-66855b96-20241106" 
+from next@15.0.3
+npm error node_modules/next
+npm error   next@"15.0.3" 
+from the root project
+npm error
+npm error Conflicting peer 
+dependency: react@19.0.0-rc-6
+6855b96-20241106
+npm error node_modules/react
+npm error   peer 
+react@"^18.2.0 || 
+19.0.0-rc-66855b96-20241106" 
+from next@15.0.3
+npm error   node_modules/next
+npm error     next@"15.0.3" 
+from the root project
+npm error
+npm error Fix the upstream 
+dependency conflict, or retry
+npm error this command with 
+--force or --legacy-peer-deps
+npm error to accept an 
+incorrect (and potentially 
+broken) dependency 
+resolution.
+npm error
+npm error
+npm error For a full report 
+see:
+npm error C:\Users\Saloni\App
+Data\Local\npm-cache\_logs\20
+26-03-15T05_27_02_836Z-eresol
+ve-report.txt
+npm error A complete log of 
+this run can be found in: C:\
+Users\Saloni\AppData\Local\np
+m-cache\_logs\2026-03-15T05_2
+7_02_836Z-debug-0.log

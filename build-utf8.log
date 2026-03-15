@@ -1,0 +1,59 @@
+﻿
+> life-dashboard@0.1.0 build
+> next build
+
+   Γû▓ Next.js 15.1.0
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+node.exe : Failed to compile.
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~
+    + CategoryInfo              : 
+NotSpecified: (Failed     to 
+compile.:String) [],     
+RemoteException
+    + FullyQualifiedErrorId     : 
+NativeCommandError
+ 
+
+./lib/insights/generator.ts:9:6
+Type error: Property 'from' does 
+not exist on type 
+'Promise<SupabaseClient<any, 
+"public", any, any, any>>'.
+
+[0m [90m  7 |[39m   [90m// 
+Analyze spending patterns[39m[0m
+[0m [90m  8 |[39m   
+[36mconst[39m { data[33m:[39m 
+expenses } [33m=[39m 
+[36mawait[39m supabase[0m
+[0m[31m[1m>[22m[39m[90m  9 
+|[39m     [33m.[39m[36mfrom[3
+9m([32m'expenses'[39m)[0m
+[0m [90m    |[39m      
+[31m[1m^[22m[39m[0m
+[0m [90m 10 |[39m     [33m.[3
+9mselect([32m'*'[39m)[0m
+[0m [90m 11 |[39m     [33m.[3
+9meq([32m'user_id'[39m[33m,[39
+m userId)[0m
+[0m [90m 12 |[39m     [33m.[3
+9mgte([32m'expense_date'[39m[33
+m,[39m [36mnew[39m [33mDate[3
+9m([33mDate[39m[33m.[39mnow() 
+[33m-[39m [35m30[39m 
+[33m*[39m [35m24[39m 
+[33m*[39m [35m60[39m 
+[33m*[39m [35m60[39m 
+[33m*[39m [35m1000[39m)[33m.
+[39mtoISOString())[0m
